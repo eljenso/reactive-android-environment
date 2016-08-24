@@ -37,7 +37,7 @@ RUN echo "y" | android update sdk \
     --no-ui \
     --force \
     --all \
-    --filter platform-tools,android-23,build-tools-23.0.1,extra-android-support,extra-android-m2repository,extra-google-m2repository
+    --filter platform-tools,android-23,build-tools-23.0.1,build-tools-23.0.3,extra-android-support,extra-android-m2repository,extra-google-m2repository
 
 # Clean up when done.
 RUN apt-get clean && \
